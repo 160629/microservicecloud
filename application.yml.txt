@@ -1,0 +1,18 @@
+﻿spring:
+    profils:
+        active:
+        -dev
+---
+spring:
+    profils:dev #开发环境
+    application:
+        name:microservicecloud-config-pcitc-dev
+        
+---
+spring:
+    profils:test #测试环境
+    application:
+        name:microservicecloud-config-pcitc-test
+    
+
+ # 请保存为UTF-8格式
